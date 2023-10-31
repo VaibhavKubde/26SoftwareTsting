@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="5" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL after Login = https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[URL= https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[Thank U Text= Thank you for your order!]]>
+    </line>
+    <line>
+      <![CDATA[Count= 6]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-31T19:13:22 IST" name="Suite" finished-at="2023-10-31T19:13:55 IST" duration-ms="32983">
+    <groups>
+      <group name="regression">
+        <method signature="CartPage_Test.verifyURLOfApplicationTest()[pri:0, instance:testCases.CartPage_Test@14fa86ae]" name="verifyURLOfApplicationTest" class="testCases.CartPage_Test"/>
+        <method signature="Checkout_Complete_Page_Test.verifycheckImgTest()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" name="verifycheckImgTest" class="testCases.Checkout_Complete_Page_Test"/>
+        <method signature="Checkout_Complete_Page_Test.verifythankUTxtTest()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" name="verifythankUTxtTest" class="testCases.Checkout_Complete_Page_Test"/>
+        <method signature="Inventory_Page_Test.add6ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" name="add6ProductTest" class="testCases.Inventory_Page_Test"/>
+        <method signature="Inventory_Page_Test.remove2ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" name="remove2ProductTest" class="testCases.Inventory_Page_Test"/>
+        <method signature="Login_Page_Test.loginToApplicationTest()[pri:3, instance:testCases.Login_Page_Test@1787bc24]" name="loginToApplicationTest" class="testCases.Login_Page_Test"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-10-31T19:13:22 IST" name="GroupTest" finished-at="2023-10-31T19:13:55 IST" duration-ms="32983">
+      <class name="testCases.Checkout_Complete_Page_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:35 IST" name="setUp" finished-at="2023-10-31T19:13:40 IST" duration-ms="4967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifycheckImgTest()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:40 IST" name="verifycheckImgTest" finished-at="2023-10-31T19:13:40 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycheckImgTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:40 IST" name="closeBrowser" finished-at="2023-10-31T19:13:40 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:40 IST" name="setUp" finished-at="2023-10-31T19:13:45 IST" duration-ms="5490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifythankUTxtTest()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:45 IST" name="verifythankUTxtTest" finished-at="2023-10-31T19:13:45 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank U Text= Thank you for your order!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifythankUTxtTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.Checkout_Complete_Page_Test@6e15fe2]" started-at="2023-10-31T19:13:45 IST" name="closeBrowser" finished-at="2023-10-31T19:13:46 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Checkout_Complete_Page_Test -->
+      <class name="testCases.CartPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CartPage_Test@14fa86ae]" started-at="2023-10-31T19:13:30 IST" name="setUp" finished-at="2023-10-31T19:13:34 IST" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyURLOfApplicationTest()[pri:0, instance:testCases.CartPage_Test@14fa86ae]" started-at="2023-10-31T19:13:34 IST" name="verifyURLOfApplicationTest" finished-at="2023-10-31T19:13:35 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL= https://www.saucedemo.com/cart.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLOfApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.CartPage_Test@14fa86ae]" started-at="2023-10-31T19:13:35 IST" name="closeBrowser" finished-at="2023-10-31T19:13:35 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.CartPage_Test -->
+      <class name="testCases.Login_Page_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Login_Page_Test@1787bc24]" started-at="2023-10-31T19:13:22 IST" name="setUp" finished-at="2023-10-31T19:13:27 IST" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToApplicationTest()[pri:3, instance:testCases.Login_Page_Test@1787bc24]" started-at="2023-10-31T19:13:27 IST" name="loginToApplicationTest" finished-at="2023-10-31T19:13:28 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL after Login = https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.Login_Page_Test@1787bc24]" started-at="2023-10-31T19:13:28 IST" name="closeBrowser" finished-at="2023-10-31T19:13:30 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Login_Page_Test -->
+      <class name="testCases.Inventory_Page_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:46 IST" name="setUp" finished-at="2023-10-31T19:13:49 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add6ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:49 IST" name="add6ProductTest" finished-at="2023-10-31T19:13:50 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Count= 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add6ProductTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:50 IST" name="closeBrowser" finished-at="2023-10-31T19:13:50 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add6ProductTest status=SUCCESS method=Inventory_Page_Test.add6ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff] output=Count= 6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:50 IST" name="setUp" finished-at="2023-10-31T19:13:54 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="remove2ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:54 IST" name="remove2ProductTest" finished-at="2023-10-31T19:13:55 IST" duration-ms="755" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [6]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testCases.Inventory_Page_Test.remove2ProductTest(Inventory_Page_Test.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove2ProductTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff]" started-at="2023-10-31T19:13:55 IST" name="closeBrowser" finished-at="2023-10-31T19:13:55 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=remove2ProductTest status=FAILURE method=Inventory_Page_Test.remove2ProductTest()[pri:0, instance:testCases.Inventory_Page_Test@5b3f61ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Inventory_Page_Test -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- Suite -->
+</testng-results>
